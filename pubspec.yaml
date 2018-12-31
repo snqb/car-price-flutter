@@ -1,0 +1,30 @@
+name: car_price_prediction
+description: IAAU assignment
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  
+dependencies:
+  flutter:
+    sdk: flutter
+
+  rxdart: any
+  cupertino_icons: ^0.1.2
+  http: ^0.11.0
+  fluro: "^1.4.0"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_stetho: ^0.2.2
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/json/brands.json
