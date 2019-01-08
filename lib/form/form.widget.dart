@@ -1,6 +1,6 @@
-import 'package:car_price_prediction/base_provider.dart';
 import 'package:car_price_prediction/form/form.validators.dart';
 import 'package:car_price_prediction/form/form_options.dart';
+import 'package:car_price_prediction/providers/base_provider.dart';
 import 'package:car_price_prediction/results/results.bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';

@@ -1,5 +1,5 @@
-import 'package:car_price_prediction/base_provider.dart';
 import 'package:car_price_prediction/car_models/car_models.bloc.dart';
+import 'package:car_price_prediction/providers/base_provider.dart';
 import 'package:car_price_prediction/results/results.bloc.dart';
 import 'package:flutter/material.dart';
 

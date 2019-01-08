@@ -1,4 +1,4 @@
-import 'package:car_price_prediction/base_provider.dart';
+import 'package:car_price_prediction/providers/base_provider.dart';
 import 'package:car_price_prediction/results/results.bloc.dart';
 import 'package:car_price_prediction/routes.dart';
 import 'package:fluro/fluro.dart';
