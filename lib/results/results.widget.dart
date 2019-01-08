@@ -21,7 +21,7 @@ class _ResultsWidgetState extends State<ResultsWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('Results')),
+        appBar: AppBar(title: Text('Результат')),
         body: StreamBuilder(
             stream: resultsBloc.result.stream,
             builder: (context, AsyncSnapshot<String> snapshot) {

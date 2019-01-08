@@ -26,7 +26,7 @@ class CarFormState extends State<FormWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Form')),
+      appBar: AppBar(title: Text('Выберите характеристики')),
       body: Form(
         key: _formKey,
         autovalidate: _isOnAutoValidate,

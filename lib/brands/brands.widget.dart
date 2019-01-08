@@ -27,7 +27,7 @@ class BrandsListWidgetState extends State<BrandsListWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Car Price Prediction'),
+        title: Text('Выберите марку'),
       ),
       body: StreamBuilder(
           stream: brandsBloc.brands,

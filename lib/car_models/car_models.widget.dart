@@ -32,7 +32,7 @@ class CarModelsListWidgetState extends State<CarModelsListWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Car h'),
+          title: Text('Выберите модель'),
         ),
         body: StreamBuilder(
             stream: carModelsBloc.carModels,

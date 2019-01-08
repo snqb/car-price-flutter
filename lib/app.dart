@@ -1,6 +1,6 @@
 import 'package:car_price_prediction/providers/base_provider.dart';
 import 'package:car_price_prediction/results/results.bloc.dart';
-import 'package:car_price_prediction/routes.dart';
+import 'package:car_price_prediction/route_handlers.dart';
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +23,7 @@ class AppState extends State<App> {
     return BlocProvider<ResultsBloc>(
         builder: (_, ResultsBloc bloc) => bloc ?? ResultsBloc(),
         child: MaterialApp(
-          title: "Simple Material App",
+          title: "Car Price Prediction",
           onGenerateRoute: router.generator,
         ),
         onDispose: (_, ResultsBloc bloc) {
